@@ -28,12 +28,12 @@
   "formats" : {
     "csv" : {
       "type" : "text",
-      "extensions" : [ "csv", "gz" ],
+      "extensions" : [ "csv" ],
       "delimiter" : ","
     },
     "tsv" : {
       "type" : "text",
-      "extensions" : [ "tsv", "gz" ],
+      "extensions" : [ "tsv" ],
       "delimiter" : "\t"
     },
     "parquet" : {
@@ -41,7 +41,7 @@
     },
     "json" : {
       "type" : "json",
-      "extensions" : [ "json", "gz" ]
+      "extensions" : [ "json" ]
     }
   }
 }
